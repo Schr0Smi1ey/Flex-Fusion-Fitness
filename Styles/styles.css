@@ -505,3 +505,79 @@ table {
     font-weight: 400;
     font-size: 0.875rem;
 }
+
+/* Footer */
+
+footer {
+    border: 0.1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-content {
+    border: 2px solid indigo;
+    margin: 66px 190px 59px 190px;
+    display: flex;
+}
+
+.footer-left {
+    border: 2px solid steelblue;
+    width: 40%;
+    margin-right: 100px;
+}
+
+.footer-title {
+    color: rgb(230, 83, 60);
+    font-size: 4.375rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer-subtitle {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.footer-right {
+    width: 60%;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-part-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.footer-items {
+    list-style: none;
+}
+
+.footer-item {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 1.4375rem;
+    margin-bottom: 20px;
+}
+
+
+.copyright-part {
+    margin: 0px 190px;
+    text-align: center;
+}
+
+.copyright-part hr {
+    margin-bottom: 36px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright-part h4{
+    margin-bottom: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
