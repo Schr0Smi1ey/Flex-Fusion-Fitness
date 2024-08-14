@@ -97,33 +97,78 @@
         font-size: 0.8rem;
     }
 
-        /* Habits Section */
+    /* Habits Section */
 
-        .habits {
-            border: 2px solid red;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-        }
+    .habits {
+        border: 2px solid red;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .habits-top {
+        border: 2px solid burlywood;
+        margin: 1% 2%;
+    }
+    .habit-title {
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 120%;
+        margin-bottom: 3%;
+    }
     
-        .habits-top {
-            border: 2px solid burlywood;
-            margin: 1% 2%;
-        }
-        .habit-title {
-            font-size: 2rem;
-            font-weight: 900;
-            line-height: 120%;
-            margin-bottom: 3%;
-        }
-        
-        .habits-card-container {
-            grid-template-areas: 
-            "a"
-            "b"
-            "c"
-            "d";
-            gap: 40px;
-        }    
+    .habits-card-container {
+        grid-template-areas: 
+        "a"
+        "b"
+        "c"
+        "d";
+        gap: 40px;
+    }    
+
+    
+    /* Mile Section Styles */
+
+    .mile{
+        margin: 2% auto;
+        flex-direction: column;
+        gap: 0px;
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        justify-content: center;
+    }
+    .mile-left {
+        width: 96%;
+        margin: 1% 2%;
+        justify-content: center;
+    }
+    
+    .mile-title {
+        font-size: 2rem;
+        margin-bottom: 14px;
+    }
+
+    .mile-btn-container {
+        text-align: center;
+    }
+
+    .btn-mile {
+        width: 85%;
+        padding: 16px 40px 16px 40px;
+    }
+
+    .mile-right {
+        text-align: center;
+        width: 100%;
+    }
+
+    .mile-right img {
+        width: 90%;
+        border-radius: 18px;
+        margin: 1% 2%;
+    }
+
+
+
 }
 

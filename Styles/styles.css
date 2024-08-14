@@ -263,5 +263,56 @@ header {
 
 
 
+/* mile styles */
+
+.mile{
+    border: 2px solid blueviolet;
+    display: flex;
+    margin: 0px 190px 100px;
+    align-items: center;
+    gap: 130px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.mile-left {
+    width: 55%;
+    border: 2px solid indigo;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 40px 50px;
+}
+
+.mile-title {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+
+.mile-subtitle {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-bottom: 34px;
+}
+
+.btn-mile {
+    padding: 16px 40px 16px 40px;
+}
+
+.mile-right {
+    width: 45%;
+    border: 2px solid green;
+}
+
+
+.mile-right img {
+    width: 90%;
+    border: 2px solid indianred;
+    border-radius: 18px;
+    margin: 30px 30px 30px 0px;
+}
 
 
