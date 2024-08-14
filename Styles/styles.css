@@ -16,7 +16,6 @@ body {
     margin: 0 auto; 
     color: white;
     background-color: black;
-    border: 2px solid green;
 }
 
 .btn-primary {
@@ -47,7 +46,6 @@ header {
 /* Navbar Styles */
 
 .navbar {
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +63,7 @@ header {
     font-weight: 800;
     width: 40%;
     line-height: 120%;
-    border: 2px solid green;
+    
 }
 .nav-items {
     display: flex;
@@ -85,7 +83,7 @@ header {
 }
 
 .banner-left {
-    border: 2px solid red;
+    
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -127,7 +125,7 @@ header {
 }
 
 .banner-right {
-    border: 2px solid red;
+    
     width: 34%;
     position: relative;
     text-align: center;
@@ -189,14 +187,13 @@ header {
 /* Habits Section Styles */
 
 .habits {
-    border: 2px solid red;
+    
     margin: 100px 198px;
     display: flex;
     flex-direction: column;
 }
 
 .habits-top {
-    border: 2px solid steelblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -270,7 +267,7 @@ header {
 /* mile styles */
 
 .mile{
-    border: 2px solid red;
+    
     display: flex;
     margin: 0px 190px 100px;
     align-items: center;
@@ -280,7 +277,6 @@ header {
 }
 
 .mile-left {
-    border: 2px solid steelblue;
     width: 55%;
     display: flex;
     flex-direction: column;
@@ -288,7 +284,6 @@ header {
 }
 
 .mile-title {
-    border: 2px solid yellow;
     font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
@@ -308,7 +303,7 @@ header {
 }
 
 .mile-right {
-    border: 2px solid green;
+    
     width: 50%;
 }
 
@@ -436,7 +431,7 @@ table {
     border: 2px solid black;
 }
 .plan-container {
-    border: 2px solid green;
+    
     margin: 0px 190px 100px;
 }
 
@@ -657,7 +652,7 @@ footer {
 
 .copyright-part hr {
     margin-bottom: 36px;
-    border: 2px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .copyright-part h4{
