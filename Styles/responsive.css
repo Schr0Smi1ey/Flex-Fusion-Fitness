@@ -168,7 +168,43 @@
         margin: 1% 2%;
     }
 
+    /* BMI Section Styles */
 
+    .bmi-intro {
+        margin: 1% 2%;
+    }
+
+    .bmi-title {
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 5%;
+    }
+
+    .bmi-container {
+        margin: 5% 2%;
+        flex-direction: column;
+    }
+
+    .bmi-chart {
+        width: 100%;
+        margin: 0;
+    }
+
+    .chart-title {
+        font-size: 1rem;
+        margin-bottom: 10%;
+    }
+
+    .bmi-cal-title {
+        font-size: 1rem;
+        font-weight: 900;
+        margin-bottom: 5%;
+    }
+
+    .bmi-btn {
+        width: 55%;
+    }
+    
 
 }
 
