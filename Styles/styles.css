@@ -13,11 +13,10 @@ html {
 }
 
 body {
-    max-width: 1440px;
     margin: 0 auto; 
-    /* need toremove  */
     color: white;
     background-color: black;
+    border: 2px solid green;
 }
 
 .btn-primary {
@@ -34,6 +33,10 @@ body {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.hide {
+    display: none;
+}
+
 /* header styles */
 
 header {
@@ -44,10 +47,11 @@ header {
 /* Navbar Styles */
 
 .navbar {
+    border: 2px solid red;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin: 57px 190px 32px;
+    margin: 57px auto 32px;
 }
 
 .menu-bar {
@@ -59,26 +63,30 @@ header {
     color: rgb(230, 83, 60);
     font-size: 2.25rem;
     font-weight: 800;
+    width: 40%;
     line-height: 120%;
+    border: 2px solid green;
 }
 .nav-items {
     display: flex;
     list-style: none;
-    gap: 3.35rem;
+    width: 34%;
+    justify-content: space-between;
     align-items: center;
 }
 
 /* Banner Styles */
 
 .banner-container {
+    margin: 0px auto 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin: 0px 190px 100px;
 }
 
 .banner-left {
-    width: 50%;
+    border: 2px solid red;
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 28px;
@@ -99,16 +107,18 @@ header {
     font-family: 'Miama', sans-serif;                                                
     font-style: italic;                                    
 }
-
+.banner-btn-container {
+    display: flex;
+}
 .responsive-btn {
     display: none;
 }
 
 .banner-btn {
-    width: 224px;
-    padding: 16px 40px 16px 40px;
+    width: 35%;
+    padding: 10px 30px 10px 30px;
     border-radius: 42px;
-    margin-right: 14px;
+    margin-right: 5%;
 }
 
 .banner-btn-2 {
@@ -117,19 +127,22 @@ header {
 }
 
 .banner-right {
+    border: 2px solid red;
+    width: 34%;
     position: relative;
+    text-align: center;
 }
 
 .banner-img {
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
 }
 
 
 .banner-card {
     position: absolute;
-    width: 55%;
-    height: 16%;
+    width: 40%;
+    height: 14%;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
@@ -140,9 +153,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 28px 23px;
+    padding: 15px 10px;
     top: 71%;
-    left: -30%;
+    left: -3%;
 }
 
 .banner-icon {
@@ -160,9 +173,9 @@ header {
 }
 
 .banner-card-2 {
-    padding: 16px 23px;
+    padding: 8px 0;
     top: 25%;
-    left: 70%;
+    right: 0%;
 }
 
 .banner-card-2-title {
@@ -176,17 +189,19 @@ header {
 /* Habits Section Styles */
 
 .habits {
+    border: 2px solid red;
     margin: 100px 198px;
     display: flex;
     flex-direction: column;
 }
 
 .habits-top {
+    border: 2px solid steelblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px 186.5px 55px;
+    margin: 0px auto 55px;
 }
 
 .habit-title {
@@ -252,11 +267,10 @@ header {
 }
 
 
-
-
 /* mile styles */
 
 .mile{
+    border: 2px solid red;
     display: flex;
     margin: 0px 190px 100px;
     align-items: center;
@@ -266,6 +280,7 @@ header {
 }
 
 .mile-left {
+    border: 2px solid steelblue;
     width: 55%;
     display: flex;
     flex-direction: column;
@@ -273,6 +288,7 @@ header {
 }
 
 .mile-title {
+    border: 2px solid yellow;
     font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
@@ -292,12 +308,13 @@ header {
 }
 
 .mile-right {
-    width: 45%;
+    border: 2px solid green;
+    width: 50%;
 }
 
 
 .mile-right img {
-    width: 90%;
+    width: 100%;
     border-radius: 18px;
     margin: 30px 30px 30px 0px;
 }
@@ -306,8 +323,12 @@ header {
 /* BMI Section Styles */
 
 .bmi-intro {
-    margin: 0 384.5px 88px;
+    margin: 0 auto 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .bmi-title {
     font-size: 2rem;
     font-weight: 900;
@@ -361,6 +382,7 @@ table {
 }
 
 .bmi-cal {
+    width: 50%;
     margin: 49px 0px 52px;
 }
 
@@ -407,9 +429,6 @@ table {
     padding: 12px 70px 12px 20px;
 }
 
-.bmi-btn {
-    width: 32%;
-}
 
 /* Plan Section Start */
 
@@ -417,11 +436,12 @@ table {
     border: 2px solid black;
 }
 .plan-container {
+    border: 2px solid green;
     margin: 0px 190px 100px;
 }
 
 .plan-part-1 {
-    margin: 0px 250px;
+    margin: 0px auto;
     text-align: center;
     margin-bottom: 58px;
 }
@@ -446,8 +466,6 @@ table {
 }
 
 .plan-card {
-    width: 30%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -514,7 +532,7 @@ table {
 }
 
 .meet-info {
-    margin: 0px 194.5px 58px;
+    margin: 0px auto 58px;
     text-align: center;
 }
 

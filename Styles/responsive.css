@@ -14,7 +14,8 @@
         display: none;
     }
 
-    .navbar{
+    .navbar {
+        justify-content: space-between;
         margin: 10% 2%;
     }
 
@@ -61,11 +62,13 @@
         border-radius: 25px;
     }
 
-    .banner-card {
-        width: 45%;
-        height: 12%;
-        padding: 1% 2%;
+    .banner-right {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin-top: 5%;
     }
+
 
     .banner-card-1 {
         top: 43%;
@@ -85,7 +88,6 @@
     }
     
     .banner-card-2-title {
-        font-size: 1.125rem;
         font-weight: 900;
         letter-spacing: 0.3px;
         margin-bottom: 0;
@@ -156,6 +158,7 @@
     .mile-right {
         text-align: center;
         width: 100%;
+        margin-top: 5%;
     }
 
     .mile-right img {
@@ -189,6 +192,11 @@
     .chart-title {
         font-size: 1rem;
         margin-bottom: 10%;
+    }
+
+    .bmi-cal {
+        width: 100%;
+        margin: 5% 0;
     }
 
     .bmi-cal-title {
@@ -293,4 +301,3 @@
     }
     
 }
-
