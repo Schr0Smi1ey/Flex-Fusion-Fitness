@@ -205,6 +205,31 @@
         width: 55%;
     }
     
+    /* Meet Section */
 
+    .meet {
+        margin: 5% 2%;
+    }
+
+    .meet-info {
+        margin: 2% 2%;
+    }
+
+    .meet-title {
+        font-size: 2rem;
+        margin-bottom: 5%;
+    }
+
+    .meet-card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .trainer-name {
+        font-size: 1rem;
+    }
+
+    .trainer-title {
+        font-size: 0.875rem;
+    }
 }
 
