@@ -97,142 +97,33 @@
         font-size: 0.8rem;
     }
 
+        /* Habits Section */
 
-    /* Habits Section */
-
-    .habits {
-        border: 2px solid red;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .habits-top {
-        border: 2px solid burlywood;
-        margin: 1% 2%;
-    }
-    .habit-title {
-        font-size: 2rem;
-        font-weight: 900;
-        line-height: 120%;
-        margin-bottom: 3%;
-    }
+        .habits {
+            border: 2px solid red;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
     
-    .habits-card-container {
-        grid-template-areas: 
-        "a"
-        "b"
-        "c"
-        "d";
-        gap: 40px;
-    }    
-
-
-    /* Mile Section Styles */
-
-    .mile{
-        margin: 2% auto;
-        flex-direction: column;
-        gap: 0px;
-        border-radius: 18px;
-        background: rgb(34, 34, 34);
-        justify-content: center;
-    }
-    .mile-left {
-        width: 96%;
-        margin: 1% 2%;
-        justify-content: center;
-    }
-    
-    .mile-title {
-        font-size: 2rem;
-        margin-bottom: 14px;
-    }
-
-    .mile-btn-container {
-        text-align: center;
-    }
-
-    .btn-mile {
-        width: 85%;
-        padding: 16px 40px 16px 40px;
-    }
-
-    .mile-right {
-        text-align: center;
-        width: 100%;
-    }
-
-    .mile-right img {
-        width: 90%;
-        border-radius: 18px;
-        margin: 1% 2%;
-    }
-
-    /* BMI Section Styles */
-
-    .bmi-intro {
-        margin: 1% 2%;
-    }
-
-    .bmi-title {
-        font-size: 3rem;
-        font-weight: 900;
-        margin-bottom: 5%;
-    }
-
-    .bmi-container {
-        margin: 5% 2%;
-        flex-direction: column;
-    }
-
-    .bmi-chart {
-        width: 100%;
-        margin: 0;
-    }
-
-    .chart-title {
-        font-size: 1rem;
-        margin-bottom: 10%;
-    }
-
-    .bmi-cal-title {
-        font-size: 1rem;
-        font-weight: 900;
-        margin-bottom: 5%;
-    }
-
-    .bmi-btn {
-        width: 55%;
-    }
-
-
-    /* Meet Section */
-
-    .meet {
-        margin: 5% 2%;
-    }
-
-    .meet-info {
-        margin: 2% 2%;
-    }
-
-    .meet-title {
-        font-size: 2rem;
-        margin-bottom: 5%;
-    }
-
-    .meet-card {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .trainer-name {
-        font-size: 1rem;
-    }
-
-    .trainer-title {
-        font-size: 0.875rem;
-    }
-
+        .habits-top {
+            border: 2px solid burlywood;
+            margin: 1% 2%;
+        }
+        .habit-title {
+            font-size: 2rem;
+            font-weight: 900;
+            line-height: 120%;
+            margin-bottom: 3%;
+        }
+        
+        .habits-card-container {
+            grid-template-areas: 
+            "a"
+            "b"
+            "c"
+            "d";
+            gap: 40px;
+        }    
 }
 
