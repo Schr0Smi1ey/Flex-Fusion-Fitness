@@ -53,6 +53,7 @@ header {
 
 .menu-bar {
     display: none;
+    height: 100%;
 }
 
 .nav-title {
@@ -425,6 +426,102 @@ table {
 
 .bmi-btn {
     width: 32%;
+}
+
+/* Plan Section Start */
+
+.plan {
+    border: 2px solid black;
+}
+.plan-container {
+    border: 2px solid red;
+    margin: 0px 190px 100px;
+}
+
+.plan-part-1 {
+    border: 2px solid green;
+    margin: 0px 250px;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.plan-title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.plan-subtitle {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.plan-part-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-card {
+    border: 2px solid slateblue;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.info-1 {
+    margin-bottom: 50px;
+}
+
+.four {
+    color: red;
+    font-size: 4rem;
+}
+
+.plan-card-title {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.plan-card-subtitle {
+    font-size: 1.5rem;
+}
+
+.plan-card-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-bottom: 50px;
+}
+
+
+.plan img {
+    border: 2px solid indigo;
+    width : 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.info-3 {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.info-3 .plan-card-description {
+    margin-bottom: 25px;
+}
+.plan-card-minititle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
 

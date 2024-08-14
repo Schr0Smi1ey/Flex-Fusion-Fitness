@@ -131,7 +131,7 @@
     /* Mile Section Styles */
 
     .mile{
-        margin: 2% auto;
+        margin: 10% auto;
         flex-direction: column;
         gap: 0px;
         border-radius: 18px;
@@ -172,7 +172,7 @@
     /* BMI Section Styles */
 
     .bmi-intro {
-        margin: 1% 2%;
+        margin: 10% 2%;
     }
 
     .bmi-title {
@@ -206,6 +206,45 @@
         width: 55%;
     }
     
+    /* plan section */
+
+    .plan-container {
+        margin: 2% 2%;
+    }
+
+    .plan-part-1 {
+        margin: 0;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .plan-title {
+        font-size: 2rem;
+        font-weight: 900;
+        margin-bottom: 2%;
+    }
+
+    .plan-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .plan-part-2 {
+        flex-direction: column;
+    }
+    
+    .plan-card {
+        width: 100%;
+        padding: 3%;
+    }
+    
+    .plan-card-title {
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+
+    .plan-card-subtitle {
+        font-size: 1rem;
+    }
     /* Meet Section */
 
     .meet {
